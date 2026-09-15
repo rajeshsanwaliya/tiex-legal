@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your TieX account · TieX</title>
+<meta name="description" content="How to delete your TieX account and what happens to your data.">
+<style>
+  :root { color-scheme: light dark; --bg:#fff; --fg:#16161a; --muted:#5b5b66; --line:#e6e6ec; --accent:#7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101014; --fg:#ececf1; --muted:#a0a0ad; --line:#2a2a33; --accent:#a78bfa; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 72px; }
+  header a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 24px 0 10px; }
+  h2 { font-size: 1.15rem; margin: 34px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .lede { color: var(--muted); }
+  .note { background: color-mix(in srgb, var(--accent) 10%, transparent);
+          border-left: 3px solid var(--accent); padding: 12px 14px; border-radius: 8px; margin: 20px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .tablewrap { overflow-x: auto; }
+  code { background: color-mix(in srgb, var(--fg) 8%, transparent); padding: 1px 5px; border-radius: 4px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a href="./index.html">← TieX</a></header>
+
+<h1>Delete your TieX account</h1>
+<p class="lede">App: <strong>TieX</strong> · Developer: <strong>TieX</strong> · Contact:
+<a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a></p>
+
+<h2>Option 1 — delete it yourself in the app (fastest)</h2>
+<ol>
+  <li>Open TieX and sign in.</li>
+  <li>Go to <strong>Profile → Settings</strong>.</li>
+  <li>Scroll to the bottom and tap <strong>Delete Account</strong>.</li>
+  <li>Confirm twice. Your profile and photos disappear immediately.</li>
+</ol>
+<p>You can also choose <strong>Deactivate Account</strong> instead. That hides your profile right away
+and permanently deletes everything 30 days later, unless you log back in before then.</p>
+
+<h2>Option 2 — ask us to delete it (no app needed)</h2>
+<p>If you cannot sign in or have already uninstalled the app, email
+<a href="mailto:support.tiex@gmail.com?subject=Delete%20my%20TieX%20account">support.tiex@gmail.com</a>
+from the email address on the account with the subject <code>Delete my TieX account</code>.</p>
+<p>Include the email address or phone number you signed up with, so we can find the account. We may ask
+one question to confirm the account is yours — we do this to stop somebody else from deleting your
+account. We acknowledge within 24 hours and complete the deletion within 7 business days.</p>
+
+<h2>What is deleted</h2>
+<p>Once the deletion runs, all of the following are permanently erased and cannot be restored:</p>
+<ul>
+  <li>Your profile — name, age, gender, city, bio, interests and preferences</li>
+  <li>All photos and voice notes you uploaded</li>
+  <li>All chat messages, matches, swipes, follows and friend requests</li>
+  <li>Notifications, profile visits, live-stream history, comments and gifts</li>
+  <li>Your login (email or phone) and the account itself</li>
+  <li>Identity-verification documents and payout details, once no payout obligation remains</li>
+  <li>Any unused coin balance and unwithdrawn earnings, which are forfeited</li>
+</ul>
+
+<h2>What we keep, and for how long</h2>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>Kept</th><th>Why</th><th>How long</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Coin purchase, token and payout records (amounts, dates, transaction IDs)</td>
+      <td>Indian financial and tax law requires a record of money received and paid out. Your name and
+          contact details are stripped from these rows — what remains cannot identify you.</td>
+      <td>Up to 8 years</td>
+    </tr>
+    <tr>
+      <td>A one-way hash of your email / phone number</td>
+      <td>Lets us recognise an account that was deleted while banned or under investigation, so it
+          cannot quietly return. A hash cannot be turned back into your email or phone number.</td>
+      <td>Indefinitely</td>
+    </tr>
+    <tr>
+      <td>Records of a report or ban against the account</td>
+      <td>Keeps other users safe from a banned account returning.</td>
+      <td>As long as needed for safety</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>How long it takes</h2>
+<ul>
+  <li><strong>Immediately</strong> — your profile, photos and presence disappear from the app for everyone.</li>
+  <li><strong>Within 10 days</strong> — an automatic nightly job permanently erases everything listed above.</li>
+  <li><strong>During those 10 days</strong> you can sign back in to cancel the deletion. After that, nothing can be recovered.</li>
+</ul>
+
+<div class="note">
+  Deleting your TieX account does not cancel anything on Google Play. Coins are consumed on purchase and
+  are not refundable through us — for a Play purchase issue, see
+  <a href="https://support.google.com/googleplay/answer/2479637">Google Play refunds</a>, or read the
+  refund policy inside the app under Settings.
+</div>
+
+<footer>
+  TieX · <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a> ·
+  <a href="./privacy.html">Privacy Policy</a> ·
+  <a href="./terms.html">Terms</a>
+</footer>
+</div>
+</body>
+</html>

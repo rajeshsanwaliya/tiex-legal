@@ -1,171 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TieX — Privacy Policy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · TieX</title>
 <style>
-  :root { --p:#7C3AED; --t:#1a1a2e; --m:#555; --bg:#faf9ff; }
-  * { box-sizing:border-box; }
-  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-         color:var(--t); background:var(--bg); line-height:1.65; }
-  .wrap { max-width:780px; margin:0 auto; padding:24px 20px 60px; }
-  header { border-left:5px solid var(--p); background:#fff; border-radius:14px;
-           padding:20px 22px; margin-bottom:24px; box-shadow:0 1px 6px rgba(0,0,0,.05); }
-  h1 { margin:0 0 6px; font-size:24px; }
-  .updated { color:#888; font-size:13px; font-style:italic; }
-  .intro { color:var(--m); font-size:15px; margin-top:10px; }
-  section { background:#fff; border-radius:14px; padding:18px 22px; margin-bottom:14px;
-            box-shadow:0 1px 5px rgba(0,0,0,.04); }
-  h2 { font-size:17px; margin:0 0 10px; color:var(--t); }
-  p, li { color:var(--m); font-size:14.5px; }
-  ul { padding-left:20px; margin:8px 0; }
-  a { color:var(--p); }
-  .contact { text-align:center; color:#888; font-size:13px; margin-top:24px; }
-  .pill { display:inline-block; background:var(--p); color:#fff; padding:8px 16px;
-          border-radius:30px; text-decoration:none; font-weight:600; font-size:14px; margin-top:8px; }
+  :root { color-scheme: light dark; --bg:#fff; --fg:#16161a; --muted:#5b5b66; --line:#e6e6ec; --accent:#7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101014; --fg:#ececf1; --muted:#a0a0ad; --line:#2a2a33; --accent:#a78bfa; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 72px; }
+  header a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  h1 { font-size: 1.9rem; line-height:1.25; margin: 24px 0 6px; }
+  h2 { font-size: 1.15rem; margin: 34px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .date { color: var(--muted); font-size: .92rem; margin: 0 0 8px; }
+  .note { background: color-mix(in srgb, var(--accent) 10%, transparent);
+          border-left: 3px solid var(--accent); padding: 12px 14px; border-radius: 8px; margin: 20px 0; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  footer a { color: var(--accent); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>🔒 TieX — Privacy Policy</h1>
-    <div class="updated">Last Updated: June 14, 2026</div>
-    <p class="intro">TieX ("we", "us", "our") is committed to protecting your personal data. This policy explains what we collect, how we use it, and your rights as a user.</p>
-  </header>
-
-  <section>
-    <h2>1. Information We Collect</h2>
-    <p>When you create a TieX account, we collect:</p>
-    <ul>
-      <li>Email address (used for login and account recovery)</li>
-      <li>Name, age, gender, city, country, and profile bio</li>
-      <li>Profile photos you upload</li>
-      <li>Interests, vibe tags, and preferences you choose</li>
-      <li>Approximate location (country/region) — to show nearby and same-country profiles and apply local rules</li>
-      <li>Device info (OS version, device model) for support and crash reports</li>
-    </ul>
-    <p>During your use of the app, we also collect:</p>
-    <ul>
-      <li>Swipe history (who you liked or passed)</li>
-      <li>Chat messages (stored securely in our database)</li>
-      <li>Online / activity status (your "last active" time, shown as an online indicator)</li>
-      <li>Token/coin purchase history and wallet balance</li>
-      <li>App usage patterns (screens visited, session duration)</li>
-      <li>Push notification token (to deliver match, message, call and follow alerts)</li>
-    </ul>
-    <p>For creators (users who choose to earn) we additionally collect KYC / identity data — government ID type and number, ID document photo, date of birth, and a short verification selfie/video — and payout details (UPI ID or bank account number, IFSC, account holder name). These are used only to verify you are a real adult and to process withdrawals.</p>
-  </section>
-
-  <section>
-    <h2>2. How We Use Your Data</h2>
-    <ul>
-      <li><b>Matching &amp; Discovery</b> — your profile is shown to compatible users based on preferences, country, and shared interests</li>
-      <li><b>Location</b> — your approximate location personalises Discovery and enforces region-specific rules; we do not continuously track precise GPS</li>
-      <li><b>Presence</b> — your last-active time powers the online indicator</li>
-      <li><b>Token System</b> — purchases, deductions, and balances enable paid features (chat, voice, video)</li>
-      <li><b>Notifications</b> — match, message, call, follow, recharge, and reminder alerts</li>
-      <li><b>Safety &amp; Moderation</b> — messages and profiles are scanned by automated systems for harmful or fake content</li>
-      <li><b>Smart Features</b> — limited text may be processed in real time by a third-party AI provider to translate chats and suggest replies</li>
-    </ul>
-    <p>We do <b>NOT</b> sell your data, use it for advertising on other platforms, or share your photos, ID, or payout details with other users.</p>
-  </section>
-
-  <section>
-    <h2>3. Identity Verification (KYC) — Creators</h2>
-    <p>Creators who wish to withdraw earnings must complete identity verification (government ID, ID number, date of birth, and a short selfie/video).</p>
-    <ul>
-      <li><b>Purpose</b> — confirm you are a real person aged 18+, prevent fraud, and meet payout/financial-compliance rules</li>
-      <li><b>Access</b> — KYC data and verification videos are visible ONLY to our authorised review/admin team, never to other users</li>
-      <li><b>Storage</b> — stored encrypted; ID numbers are treated as sensitive personal data</li>
-      <li><b>Retention</b> — kept while your creator account is active and for the period required by financial/tax law after your last payout, then deleted</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>4. Payments &amp; Payout Data</h2>
-    <p><b>Purchases:</b> Payments are processed by our payment provider on its own secure page — TieX never sees or stores your payment credentials. We store only the amount paid, pack purchased, transaction ID, and date.</p>
-    <p><b>Payouts (creators):</b> To pay your earnings we store the UPI ID or bank details you enter. These are used solely to send your money and are visible only to our payout/admin team. We may share limited payout and tax information with payment partners and tax authorities where the law requires.</p>
-  </section>
-
-  <section>
-    <h2>5. Smart Features &amp; AI Processing</h2>
-    <p>TieX uses automated technology, including a third-party AI provider (Groq), to enhance your experience — chat translation, optional reply/conversation suggestions, profile-setup help, and safety moderation. Only the text needed for the feature is processed, in real time, and this may occur on servers outside your country (see Section 9). Your content is NOT used to train any AI model, and the smart features are optional.</p>
-  </section>
-
-  <section>
-    <h2>6. Calls Are Not Recorded</h2>
-    <p>Voice and video calls are transmitted in real time through our calling provider (Agora) and are NOT recorded or stored by TieX. We also block screenshots and screen recording during calls and on sensitive screens. We keep only the metadata needed for billing and safety (e.g. call duration, participants, tokens spent).</p>
-  </section>
-
-  <section>
-    <h2>7. Data Retention</h2>
-    <ul>
-      <li>Active accounts: data retained while you use TieX</li>
-      <li>Deactivated accounts: retained for 30 days, then deleted</li>
-      <li>Deleted accounts: personal data deleted within 7 business days</li>
-      <li>Chat messages: deleted when both users delete the conversation, or at account deletion</li>
-      <li>Token &amp; payout transaction logs: retained up to 8 years for financial/tax compliance</li>
-      <li>KYC records: retained as required by financial law after last payout, then deleted</li>
-      <li>Crash/error logs: retained for 90 days</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>8. Your Rights</h2>
-    <p>Wherever you live, you can access, correct, delete, or export your data, and withdraw consent (by deleting your account from Settings → Delete Account).</p>
-    <p><b>EU / EEA / UK (GDPR):</b> our legal bases are your consent, performance of our contract with you, and our legitimate interests in safety and fraud prevention. You may object to or restrict processing and lodge a complaint with your local Data Protection Authority.</p>
-    <p><b>California (CCPA/CPRA):</b> you may know, delete, and correct your information and opt out of "sale"/"sharing" — note we do not sell your personal information.</p>
-    <p>To exercise any right, contact our Grievance/Privacy Officer: Rajesh Sanwaliya — <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a> (response within 30 days).</p>
-  </section>
-
-  <section>
-    <h2>9. International Data Transfers</h2>
-    <p>TieX serves users in many countries. To run the service, your data may be stored or processed on servers outside your own country (our database, AI, calling, and push providers may operate in India, the United States, or the EU). Where required we rely on appropriate safeguards such as Standard Contractual Clauses.</p>
-  </section>
-
-  <section>
-    <h2>10. Cookies &amp; Tracking</h2>
-    <p>TieX uses minimal local storage and SDKs needed to keep you logged in, remember your preferences, and understand basic app usage and crashes. We do not use third-party advertising trackers. Where local law requires, we ask for your consent before any non-essential tracking, and you can decline.</p>
-  </section>
-
-  <section>
-    <h2>11. Data Security</h2>
-    <p>We protect your data using HTTPS/TLS encryption in transit, Row-Level Security so users can only access their own data, encrypted storage for sensitive fields (ID, payout details), and server-side secrets that never ship inside the app. No system is 100% secure — if you suspect unauthorised access, contact <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a> immediately.</p>
-  </section>
-
-  <section>
-    <h2>12. Third-Party Services</h2>
-    <ul>
-      <li>Supabase (database, authentication, file storage)</li>
-      <li>Google Play Billing (payment processing)</li>
-      <li>Agora (real-time voice and video calls)</li>
-      <li>Groq (AI text translation &amp; suggestions)</li>
-      <li>Expo (app infrastructure and push notifications)</li>
-    </ul>
-    <p>Each third party has its own privacy policy. TieX is not responsible for their practices beyond our contracts with them.</p>
-  </section>
-
-  <section>
-    <h2>13. Children's Privacy</h2>
-    <p>TieX is strictly for users aged 18 and above. We do not knowingly collect data from minors. If you believe a minor has created an account, email <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a> and we will delete it immediately.</p>
-  </section>
-
-  <section>
-    <h2>14. Governing Law &amp; Grievances</h2>
-    <p>This Privacy Policy is governed by the laws of India, including the Information Technology Act 2000, the SPDI Rules 2011, and the Digital Personal Data Protection (DPDP) Act 2023. Disputes are subject to the courts of Gujarat, India. Nothing here removes mandatory data-protection or consumer rights you have under the laws of your own country.</p>
-    <p>Grievance Officer (IT Rules 2021): Rajesh Sanwaliya — <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a>. Acknowledged within 24 hours, resolved within 30 days.</p>
-  </section>
-
-  <section>
-    <h2>15. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last Updated" date and, for significant changes, send an in-app or push alert. Continued use of TieX after changes means you accept the updated policy.</p>
-  </section>
-
-  <p class="contact">
-    Questions? <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a><br>
-    <a class="pill" href="terms.html">View Terms &amp; Conditions →</a>
-  </p>
+<header><a href="./index.html">← TieX</a></header>
+<h1>TieX Privacy Policy</h1>
+<p class="date">Last Updated: September 14, 2026</p>
+<div class="note">Want your account deleted? You can do it yourself in the app
+         (Settings → Delete Account), or use the <a href="./delete-account.html">account deletion page</a>.</div>
+<h2>1. Information We Collect</h2>
+<p>When you create a TieX account, we collect:</p>
+<ul><li>Email address (used for login and account recovery). You may also start with Fast Login, which creates an anonymous guest account tied only to this device install — no email until you choose to add one. A guest account is a real account: everything in this policy applies to it, and if you uninstall or delete it before adding an email, it cannot be recovered</li><li>Name, age, gender, city, country, and profile bio</li><li>Profile photos you upload</li><li>Interests, vibe tags, and preferences you choose</li><li>Technical logs — when the app talks to our servers, our hosting provider records your IP address and basic request details. TieX does not collect your device model or OS version, and runs no crash-reporting or analytics SDK inside the app</li></ul>
+<p>During your use of the app, we also collect:</p>
+<ul><li>Swipe history (who you liked or passed)</li><li>Chat messages (stored securely in our database)</li><li>Online / activity status (your "last active" time, shown as an online indicator)</li><li>Token/coin purchase history and wallet balance</li><li>App usage patterns (screens visited, session duration)</li><li>Push notification token (to deliver match, message, call and follow alerts)</li><li>Live streaming activity — if you host a live stream: the stream itself (transmitted live, not recorded by TieX), its title, when it started and ended, viewer and peak-viewer counts, and gifts received. If you watch one: that you joined, your comments, mic requests, and gifts you sent. Comments and gifts are visible to the host and to everyone else watching</li></ul>
+<p>For creators (users who choose to earn) we additionally collect:</p>
+<ul><li>KYC / identity data — government ID type and number, ID document photo, date of birth, and a short verification selfie/video</li><li>Payout details — UPI ID or bank account number, IFSC, and account holder name</li></ul>
+<p>These are used only to verify you are a real adult and to process withdrawals (Sections 3–4).</p>
+<h2>2. How We Use Your Data</h2>
+<p>We use your data strictly to provide TieX services:</p>
+<ul><li>Matching &amp; Discovery — your profile is shown to compatible users based on preferences, country, and shared interests</li><li>Location — the country you selected in your profile personalises Discovery and enforces region-specific rules; TieX does not read your device location at all. The app requests no GPS permission, never tracks you in the background or continuously, and stores no location beyond that self-selected country</li><li>Presence — your last-active time powers the online indicator so users know who is available</li><li>Token System — purchases, deductions, and balances enable paid features (chat, voice, video)</li><li>Notifications — match, message, call, follow, recharge, and reminder alerts</li><li>Safety &amp; Moderation — messages and profiles are scanned by automated systems for harmful or fake content</li><li>Smart Features — limited text may be processed in real time by a third-party AI provider to suggest replies and to check content for safety (Section 5)</li></ul>
+<p>We do NOT:</p>
+<ul><li>Sell your data to third parties</li><li>Use your data for advertising on other platforms</li><li>Share your photos, ID, or payout details with other users</li></ul>
+<h2>3. Identity Verification (KYC) — Creators</h2>
+<p>Creators who wish to withdraw earnings must complete identity verification, for which we collect a government ID, ID number, date of birth, and a short selfie/video.</p>
+<ul><li>Purpose — confirm you are a real person aged 18+, prevent fraud and impersonation, and meet payout/financial-compliance rules</li><li>Access — KYC data and verification videos are visible ONLY to our authorised review/admin team, never to other users</li><li>Storage — stored encrypted; ID numbers are treated as sensitive personal data</li><li>Retention — kept while your creator account is active and for the period required by financial/tax law after your last payout, then deleted</li></ul>
+<p>You may leave the creator programme at any time; we delete KYC data we are no longer legally required to keep.</p>
+<h2>4. Payments &amp; Payout Data</h2>
+<p>Purchases: TieX uses Google Play Billing as its payment system. Your card/UPI/wallet details are handled by Google Play — TieX never sees or stores your payment credentials. We store only: amount paid, pack purchased, transaction ID, and date. See Google Play's privacy policy (policies.google.com/privacy).</p>
+<p>Payouts (creators): To pay your earnings we store the UPI ID or bank details you enter in Withdrawal Setup. These are used solely to send your money and are visible only to our payout/admin team. We may share limited payout and tax information with payment partners and tax authorities where the law requires.</p>
+<h2>5. Smart Features &amp; AI Processing</h2>
+<p>TieX uses automated technology, including a third-party AI provider (Groq), to enhance your experience:</p>
+<ul><li>Safety Moderation — every message you send is checked automatically for harmful, abusive, or fake content before it is delivered</li><li>Fake Profile Detection — when you complete your profile, the details you entered (name, age, city, bio, whether you added a photo, your vibe tags, how old the account is, and how many matches it has) are checked for signs of a fake or scam profile</li><li>First-message suggestion — when you match, a short opening message may be generated from both profiles and sent on your behalf to start the conversation</li></ul>
+<p>Only the data needed for the feature is processed, in real time, and this may occur on servers outside your country (Section 9). Your content is NOT used to train any AI model. Safety Moderation and Fake Profile Detection are not optional, because they are how we keep the app safe.</p>
+<h2>6. Calls &amp; Live Streams Are Not Recorded</h2>
+<p>Voice calls, video calls, and live streams are transmitted in real time through our calling provider (Agora) and are NOT recorded or stored by TieX. We block screenshots and screen recording during calls, live streams, chats, and identity-verification screens. We keep only the metadata needed for billing and safety — for example call duration, participants, tokens spent, and for a live stream its title, start/end time, viewer counts, comments, and gifts.</p>
+<p>A live stream is public inside TieX: anyone in the app can join it, see your name and photo, and see the comments and gifts sent in it. Do not show anything in a live stream you would not want a stranger to see.</p>
+<h2>7. Data Retention</h2>
+<ul><li>Active accounts: data retained while you use TieX</li><li>Deactivated accounts: hidden immediately, then permanently erased 30 days after you deactivate, unless you log back in first to restore the account</li><li>Deleted accounts: profile and photos are removed immediately; everything else is permanently erased within 10 days (you can log back in during that window to cancel the deletion). This runs as an automatic nightly job — no request or reminder is needed</li><li>After erasure we keep only a one-way hash of your email/phone. It cannot be read back into your email or number; it exists solely so an account that was deleted while banned or under investigation cannot quietly return</li><li>Chat messages: deleted when both users delete the conversation, or at account deletion</li><li>Token &amp; payout transaction logs: retained up to 8 years for financial/tax compliance</li><li>KYC records: retained as required by financial law after last payout, then deleted</li><li>Crash/error logs: server-side request and error logs are retained by our hosting provider for up to 90 days</li><li>Crash reporting: TieX uses Google Firebase Crashlytics inside the app. When the app crashes or hits an error we report it, along with your device model, operating system version, app version, a Crashlytics-generated installation identifier, and the sequence of screens leading up to the problem. It contains no messages, photos or payment details, and Google retains it for up to 90 days</li></ul>
+<h2>8. Your Rights</h2>
+<p>Wherever you live, you can:</p>
+<ul><li>Access — request a copy of the data we hold about you</li><li>Correction — update inaccurate information in your profile</li><li>Deletion — delete your account from Settings → Delete Account</li><li>Withdraw Consent — deactivate or delete your account at any time</li></ul>
+<p>EU / EEA / UK (GDPR): our legal bases are your consent, performance of our contract with you, and our legitimate interests in safety and fraud prevention. You may object to or restrict processing and lodge a complaint with your local Data Protection Authority.</p>
+<p>California (CCPA/CPRA): you may know, delete, and correct your information and opt out of "sale"/"sharing" — note we do not sell your personal information.</p>
+<p>To exercise any right, contact our Grievance/Privacy Officer:</p>
+<p>Name: Rajesh Sanwaliya</p>
+<p>Email: support.tiex@gmail.com</p>
+<p>Response time: within 30 days</p>
+<h2>9. International Data Transfers</h2>
+<p>TieX serves users in many countries. To run the service, your data may be stored or processed on servers outside your own country (our database, AI, calling, and push providers may operate in India, the United States, or the EU). Where required we rely on appropriate safeguards such as Standard Contractual Clauses. By using TieX you understand your data may be transferred internationally as described here.</p>
+<h2>10. Cookies &amp; Tracking</h2>
+<p>TieX uses minimal local storage and SDKs needed to keep you logged in, remember your preferences, and understand basic app usage. We do not use third-party advertising trackers. Where local law requires, we ask for your consent before any non-essential tracking, and you can decline.</p>
+<h2>11. Data Security</h2>
+<p>We protect your data using:</p>
+<ul><li>HTTPS/TLS encryption for all data in transit</li><li>Row Level Security — users can only access their own data</li><li>Sensitive records (ID documents, payout details) are held in access-restricted storage, encrypted at rest by our database and storage provider, and readable only by you and authorised TieX staff who need them to verify a creator or process a payout</li><li>Secrets (API keys, certificates) kept server-side, never inside the app</li></ul>
+<p>No system is 100% secure. If you suspect unauthorised access to your account, contact support.tiex@gmail.com immediately.</p>
+<h2>12. Third-Party Services</h2>
+<p>TieX integrates with:</p>
+<ul><li>Supabase (database, authentication, file storage) — supabase.com/privacy</li><li>Google Play Billing (payment processing) — policies.google.com/privacy</li><li>Agora (real-time voice and video calls) — agora.io/en/privacy-policy</li><li>Groq (AI text suggestions &amp; safety moderation) — groq.com/privacy-policy</li><li>Expo (app infrastructure and push notifications) — expo.dev/privacy</li><li>Google Firebase Crashlytics (crash and error reporting) — firebase.google.com/support/privacy</li></ul>
+<p>Each third party has its own privacy policy. TieX is not responsible for their practices beyond our contracts with them.</p>
+<h2>13. Children's Privacy</h2>
+<p>TieX is strictly for users aged 18 and above. We do not knowingly collect data from minors. If you believe a minor has created an account, email support.tiex@gmail.com and we will delete it immediately.</p>
+<h2>14. Governing Law &amp; Grievances</h2>
+<p>This Privacy Policy is governed by the laws of India, including the Information Technology Act 2000, the SPDI Rules 2011, and the Digital Personal Data Protection (DPDP) Act 2023. Disputes are subject to the courts of Gujarat, India. Nothing here removes mandatory data-protection or consumer rights you have under the laws of your own country.</p>
+<p>Grievance Officer (IT Rules 2021, Rule 3(1)(c)):</p>
+<p>Name: Rajesh Sanwaliya</p>
+<p>Email: support.tiex@gmail.com</p>
+<p>Acknowledged within 24 hours, resolved within 30 days.</p>
+<h2>15. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. When we do, we will update the "Last Updated" date and, for significant changes, send an in-app or push alert. Continued use of TieX after changes means you accept the updated policy.</p>
+<p>Questions? Contact support.tiex@gmail.com</p>
+<footer>
+  TieX · <a href="mailto:support.tiex@gmail.com">support.tiex@gmail.com</a> ·
+  <a href="./privacy.html">Privacy Policy</a> ·
+  <a href="./terms.html">Terms</a> ·
+  <a href="./delete-account.html">Delete your account</a>
+  <br><br>
+  This page is generated from the text shown inside the TieX app, so both always say the same thing.
+</footer>
 </div>
 </body>
 </html>
